@@ -86,7 +86,8 @@ img{
         font-size: 14px;
     }
     .product-title{
-        font-size: 20px;
+        font-size: 22px;
+        padding: 0 5px;
     }
     .add-to-cart{
         margin-bottom: 10px;
