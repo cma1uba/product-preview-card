@@ -1,0 +1,94 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Montserrat, sans-serif;
+    font-size: 14px;
+    background: hsl(30, 38%, 92%);
+    min-height: 150vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.product-card{
+    width: 100%;
+    background: hsl(0, 0%, 100%);
+    max-width: 320px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.product-info{
+    padding: 1.5rem;
+}
+.product-category{
+    letter-spacing: 2.5px;
+    font-size: 14px;
+}
+.original-price{
+    text-decoration: line-through;
+}
+.pricing{
+    display: flex;
+    align-items: center;
+    font-family: Fraunces;
+}
+.current-price{
+    color: hsl(158, 36%, 37%);
+    font-size: 24px;
+    font-weight: 700;
+}
+.original-price{
+    margin: auto 15px;
+    color: hsl(228, 12%, 48%);
+}
+.add-to-cart{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    border-radius: 8px;
+    background: hsl(158, 36%, 37%);
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+.add-to-cart:hover{
+    background: hsl(158, 42%, 18%);
+}
+.cart-icon{
+    margin-right: 10px;
+    width: 15px;
+}
+@media (min-width: 600px) {
+    .product-card{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        max-width: 500px;
+        max-height: auto;
+    }
+    .product-info{
+        width: 85%;
+        font-size: 16px;
+        padding: 0 1.5rem;
+    }
+    .product-category{
+        font-size: 14px;
+    }
+    .product-title{
+        font-size: 20px;
+    }
+    .add-to-cart{
+        margin-bottom: 10px;
+    }
+}
