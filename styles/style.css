@@ -79,17 +79,17 @@ img{
     }
     .product-info{
         width: 85%;
-        font-size: 16px;
+        font-size: 14px;
         padding: 0 1.5rem;
     }
     .product-category{
         font-size: 14px;
     }
     .product-title{
-        font-size: 22px;
+        font-size: 20px;
         padding: 0 5px;
     }
     .add-to-cart{
-        margin-bottom: 10px;
+        margin-bottom: 8px;
     }
 }
