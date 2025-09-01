@@ -15,7 +15,7 @@ body{
     width: 100%;
     background: hsl(0, 0%, 100%);
     max-width: 320px;
-    border-radius: 10px;
+    border-radius: 8px;
     overflow: hidden;
 }
 img{
