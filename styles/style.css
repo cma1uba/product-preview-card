@@ -76,6 +76,7 @@ img{
         justify-content: center;
         max-width: 600px;
         max-height: auto;
+        margin: auto;
     }
     .product-info{
         width: 85%;
